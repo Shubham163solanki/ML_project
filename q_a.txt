@@ -1,0 +1,9 @@
+conda create -p venv python==3.8 -y
+
+Here’s what each part of the command does:
+
+-p venv: This specifies that the new environment should be created in a directory named venv.
+python==3.8: This ensures that the Python version 3.8 is installed in the newly created environment.
+-y: The -y flag automatically confirms any prompts during the environment creation process.
+In summary, this command creates a new virtual environment named venv with Python version 3.8 installed. The -p flag specifies the path where this environment will be located. You can then activate this environment to work with your specific Python version.
+
